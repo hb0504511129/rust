@@ -1,0 +1,17 @@
+print-type-size type: `Padded`: 32 bytes, alignment: 8 bytes
+print-type-size     field `.a`: 1 bytes
+print-type-size     field `.b`: 1 bytes
+print-type-size     padding bytes: 2
+print-type-size     field `.g`: 4 bytes, alignment: 4 bytes
+print-type-size     field `.c`: 1 bytes
+print-type-size     padding bytes: 7
+print-type-size     field `.w`: 8 bytes, alignment: 8 bytes
+print-type-size     field `.d`: 1 bytes
+print-type-size     end padding bytes: 7
+print-type-size type: `Packed`: 16 bytes, alignment: 1 bytes
+print-type-size     field `.a`: 1 bytes
+print-type-size     field `.b`: 1 bytes
+print-type-size     field `.g`: 4 bytes
+print-type-size     field `.c`: 1 bytes
+print-type-size     field `.w`: 8 bytes
+print-type-size     field `.d`: 1 bytes
